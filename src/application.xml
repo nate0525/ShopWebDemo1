@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+	<bean id="CategoryDao" class="com.test.store.dao.daoImpl.CategoryDaoImpl" />
+	<bean id="UserDao" class="com.test.store.dao.daoImpl.UserDaoImpl" />
+	<bean id="ProductDao" class="com.test.store.dao.daoImpl.ProductDaoImpl" />
+	<bean id="OrderDao" class="com.test.store.dao.daoImpl.OrderDaoImpl" />
+	<bean id="ShoppingCarDao" class="com.test.store.dao.daoImpl.ShoppingCarDaoImpl" />
+</beans>
